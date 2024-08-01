@@ -63,7 +63,7 @@ price_data.to_csv('eth_price_data.csv')
 # create a line plot of the closing price
 plt.figure(figsize=(12, 6))
 sns.lineplot(data=price_data, x=price_data.index, y='Close')
-plt.title('BNB/USDT Closing Price Over Time')
+plt.title('ETH/USDT Closing Price Over Time')
 plt.xlabel('Date')
 plt.ylabel('Closing Price (USDT)')
 plt.xticks(rotation=45)
