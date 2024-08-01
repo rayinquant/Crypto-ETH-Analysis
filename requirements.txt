@@ -1,0 +1,3 @@
+ccxt==4.3.36
+pandas==2.2.2
+seaborn==0.13.2
