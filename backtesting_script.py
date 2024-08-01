@@ -59,7 +59,3 @@ print(price_data)
 # change the csv filename to the token you are doing backtesting on
 price_data.to_csv('bnb_price_data.csv')
 
-#         send_telegram_message(f"An error occurred while placing order: {e}")
-
-# place_order('BTC/USDT', 'limit', 'buy', 0.001, 30000)
-
