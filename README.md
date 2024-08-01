@@ -7,14 +7,6 @@ This repository contains code for analyzing Ethereum cryptocurrency data over th
 - Price trend analysis
 - Visualization of ETH price movements
 
-## Installation
-[Add installation instructions here]
-
 ## Usage
-[Add usage instructions here]
+Change ticker, timeframe, start_time, end_time to extract data you need.
 
-## Contributing
-[Add contribution guidelines here]
-
-## License
-[Add license information here]
