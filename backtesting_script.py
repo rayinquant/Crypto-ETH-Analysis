@@ -21,7 +21,7 @@ exchange = ccxt.binance({
 
 # Function to fetch kline (OHLCV) data
 def fetch_kline_price_data():
-    ticker = 'BNB/USDT'
+    ticker = 'ETH/USDT'
     timeframe = '1d'
     start_time = datetime(2020, 5, 11)
     end_time = datetime.now()
@@ -58,7 +58,7 @@ price_data = fetch_kline_price_data()
 print(price_data)
 
 # change the csv filename to the token you are doing backtesting on
-price_data.to_csv('bnb_price_data.csv')
+price_data.to_csv('eth_price_data.csv')
 
 # create a line plot of the closing price
 plt.figure(figsize=(12, 6))
